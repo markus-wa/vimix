@@ -25,10 +25,12 @@ gcc, cmake & Ninja
 
 Libraries:
 
+```
 gstreamer
 libpng
 libglfw3
+```
 
 #### Ubuntu
 
-`sudo apt install build-essential cmake ninja-build`
+    sudo apt install build-essential cmake ninja-build
