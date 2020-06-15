@@ -8,13 +8,14 @@ v-mix is the successor for GLMixer - https://sourceforge.net/projects/glmixer/
 
 ### Clone
 
-git clone --recursive https://github.com/brunoherbelin/vimix.git
+    git clone --recursive https://github.com/brunoherbelin/vimix.git
 
 ### Compile
 
+```
 cmake -G Ninja
-
 ninja
+```
 
 ### Dependencies
 
@@ -27,3 +28,7 @@ Libraries:
 gstreamer
 libpng
 libglfw3
+
+#### Ubuntu
+
+`sudo apt install build-essential cmake ninja-build`
