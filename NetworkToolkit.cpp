@@ -1,5 +1,6 @@
 
 #include <algorithm>
+#include <cstring>
 
 #include <unistd.h>
 #include <sys/ioctl.h>
